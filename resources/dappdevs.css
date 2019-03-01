@@ -1,0 +1,66 @@
+/*
+    DappDevs color pallet
+
+    #131742 - dark blue
+    #606880 - dark grey
+    #C3C8D7 - light gray
+    #E8E7EF - vlight gray
+    #FCFBFD - basically white
+    #FF8F3F - orange!
+*/
+  @import url(../resources/Yanone_Kaffeesatz.css);
+  @import url(../resources/Droid_Serif.css);
+  @import url(../resources/Ubuntu_Mono.css);
+ 
+  #video-background {
+      position: absolute;
+      width:100%;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index:-10;
+  }
+
+  #background-control {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    bottom:0;
+    right:0;
+    position:absolute;
+    display:block;
+    z-index:10;
+  }
+
+  #background-control:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .hideslide {
+    display:none;
+  }
+
+  .btc  { background-color:#ffee94; }
+  .eth  { background-color:#d2fbd2; }
+  .dash { background-color:#ffc2cd; }
+
+  .bigpic img { display:block; width: 100%; margin-left:auto; margin-right:auto }
+  .bigpic-80 img { display:block; width: 80%; margin-left:auto; margin-right:auto }
+  .bigpic-50 img { display:block; width: 50%; margin-left:auto; margin-right:auto }
+
+  .tallpic img { display:block; height: 500px; margin-left:auto; margin-right:auto }
+
+  /* Image specific styling */
+  img[alt=daostack] { display:block; width: 100%; margin-left:auto; margin-right:auto }
+  img[alt=smithcommonwealth] { display:block; width: 50%; margin-left:auto; margin-right:auto }
+  img[alt=franchise] { display:block; width: 50%; margin-left:auto; margin-right:auto }
+  img[alt=daniel-larimer] { display:block; width: 50%; margin-left:auto; margin-right:auto }
+  img[alt=gtrends] { display:block; width: 100%; margin-left:auto; margin-right:auto }
+  img[alt=gtrendskey] { display:block; width: 50%; margin-left:auto; margin-right:auto }

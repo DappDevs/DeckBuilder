@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="113px" height="113px" viewBox="0 0 113 113" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-badge-dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-18.3%" y="-14.0%" width="136.6%" height="136.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DappDevs-PressKit" transform="translate(-1008.000000, -877.000000)">
+            <g id="logo-badge-dark" filter="url(#filter-1)" transform="translate(1018.000000, 883.000000)">
+                <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="93" height="93" rx="16"></rect>
+                <path d="M17.4643385,93 C17.1885892,84.0437098 19.0377087,76.4053564 23.0116968,70.0849397 C26.985685,63.7645229 29.3587023,59.5993926 30.1307487,57.5895487 C32.4159337,51.1511918 33.3807982,45.1842119 33.0253422,39.6886089 C32.6698862,34.1930059 35.4282818,30.161038 41.300529,27.5927051 C45.2405646,26.0075986 49.1147259,26.2676554 52.9230128,28.3728756 C54.4829704,29.2352198 55.5162153,29.6012444 56.0227473,29.4709493 C62.1823648,27.6793257 68.6956157,26.7835139 75.5625,26.7835139 C72.6244281,27.9158425 70.8248574,28.3438922 66.6426461,31.0122183 C63.8545052,32.7911023 61.6575841,35.3705588 60.0518829,38.7505878 C59.1966782,42.3778525 58.5305593,44.7297978 58.0535262,45.8064237 C57.3379766,47.4213625 55.768684,52.9525348 60.7378006,58.4018662 C65.7069172,63.8511976 71.8233358,75.2031643 74.5526715,93 C55.8508905,93 36.8214462,93 17.4643385,93 Z" id="Path-2" fill="#131742"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>{ TITLE }</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../resources/default-shared.css">
+  </head>
+  <body>
+    <!-- <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script> -->
+    <script src="../resources/remark-latest.min.js"></script>
+    <script src="../resources/fontawesome-all.js"></script>
+    <script>
+      // Remark config
+      var slideshow = remark.create({
+          sourceUrl: '{ DECK }'
+      });
+    </script>
+    <script>
+      // Background controls
+
+      // Pause and play the video, and change the button text
+      function toggleBackgroundPlay() {
+          var video = document.getElementById("video-background");
+          var btn = document.getElementById("background-control");
+
+          if (video.paused) {
+              video.play();
+              btn.innerHTML = "||";
+          } else {
+              video.pause();
+              btn.innerHTML = ">";
+          }
+      }
+    </script>
+
+    <button id="background-control" onclick="toggleBackgroundPlay()">||</button>
+    <video autoplay muted loop id="video-background" poster="../media/backdrop.decnet.png">
+      <source src="../media/backdrop_nodes.mp4" type="video/mp4">
+    </video>
+
+  </body>
+</html>

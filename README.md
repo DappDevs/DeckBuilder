@@ -121,5 +121,5 @@ Special thanks to the team at [Checkmate](https://checkmate.digital/)
 # License
 [MIT License](LICENSE.md)
 
-Copyright (c) [2019] [RJ Herrick]
+Copyright (c) 2019 RJ Herrick, DappDevs LLC
 
